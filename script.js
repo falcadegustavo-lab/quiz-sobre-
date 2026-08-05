@@ -1,4 +1,3 @@
-
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -33,42 +32,17 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Durante uma expedição fora das muralhas, a Comandante revela que há um traidor infiltrado entre as fileiras com o poder de se transformar em Titã. O que você faz?",
+        enunciado: "Durante uma expedição fora das muralhas, surge a suspeita de um traidor infiltrado com o poder de se transformar em Titã. O que você faz?",
         alternativas: [
             {
-                texto: "Mantém a desconfiança em segredo e observa os passos de seus companheiros mais próximos.",
+                texto: "Mantém a desconfiança em segredo e observa os passos de seus companheiros.",
                 afirmacao: "Atuou de forma analítica e estratégica para descobrir segredos sem causar pânico."
             },
             {
-                texto: "Confia cegamente nos seus companheiros de esquadrão até que haja provas irrefutáveis.",
+                texto: "Confia cegamente nos seus companheiros até que haja provas irrefutáveis.",
                 afirmacao: "Valorizou os laços de companheirismo e lealdade acima de suspeitas não comprovadas."
             }
         ]
     },
     {
-        enunciado: "A verdade sobre o mundo é revelada através dos diários no porão de Grisha Jaeger. O inimigo não são apenas os Titãs, mas o mundo inteiro do outro lado do mar. Qual o seu posicionamento?",
-        alternativas: [
-            {
-                texto: "Defender o diálogo e buscar alianças diplomáticas com outras nações.",
-                afirmacao: "Lutou até o fim por uma solução pacífica e pela coexistência das nações."
-            },
-            {
-                texto: "Apoiar medidas drásticas para garantir a sobrevivência absoluta da ilha de Paradis.",
-                afirmacao: "Aceitou medidas extremas para proteger a sua terra natal contra um mundo hostil."
-            }
-        ]
-    },
-    {
-        enunciado: "No confronto final que decidirá o destino do mundo, você precisa dar o seu comando final. Qual ordem você concede ao seu esquadrão?",
-        alternativas: [
-            {
-                texto: "Entreguem seus corações! Lutem pela liberdade até o último suspiro!",
-                afirmacao: "Tornou-se um símbolo de esperança e liderança lendária para as futuras gerações."
-            },
-            {
-                texto: "Recuar e focar em salvar o máximo de sobreviventes possível.",
-                afirmacao: "Preservou a essência da humanidade garantindo a reconstrução e o futuro dos inocentes."
-            }
-        ]
-    }
-];
+        enunciado: "A
